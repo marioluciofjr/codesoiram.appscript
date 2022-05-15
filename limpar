@@ -1,6 +1,0 @@
-function limpar() {
-  var spreadsheet = SpreadsheetApp.getActive();
-  spreadsheet.getRangeList(['D5:D17']).activate()
-  .clear({contentsOnly: true, skipFilteredRows: true});
-  spreadsheet.getRange('D3').activate();
-};
