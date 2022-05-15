@@ -1,4 +1,4 @@
 # codesoiram
-Códigos feitos em Apps Script do Google Sheets
-Fique à vontade para  copiar os códigos e utilizar em seus projetos
-Aproveite e visite meu site: www.prazocerto.me
+Códigos feitos em Apps Script do Google Sheets. 
+Fique à vontade para copiar e utilizar em seus projetos. 
+Visite também o meu site : www.prazocerto.me
