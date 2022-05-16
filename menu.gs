@@ -12,6 +12,7 @@ function onOpen() {
   ss.addMenu("COLOQUE AQUI O NOME DO MENU", menuEntries);
 }
 
-# Se você quiser mais intervalos entre um submenu e outro, só acrescentar null, depois da linha {name: "nome", functionName: "function"},
-# Coloque quantas linhas names achar melhor 
-# Apague esses três comentários com # ao inserir o código no seu apps script
+/* Se você quiser mais intervalos entre um submenu e outro, só acrescentar null, depois da linha {name: "nome", functionName: "function"},
+ Coloque quantas linhas names achar melhor 
+ Apague esses três comentários com # ao inserir o código no seu apps script
+ */
