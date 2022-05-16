@@ -25,11 +25,12 @@ function listarArquivos() {
   
 }
 
-# Pense na seguinte estrutura:
-# Célula A1: cabeçalho [opcional]
-# Célula A2: você cola o endereço do drive que copiou na barra de endereço do navegador
-# Célula A3: você pegará o endereço do ID com a fórmula =EXT.TEXTO(A2;40;50)
-# Célula A4: cabeçalho [opcional]
-# Célula A5:A sua lista
-# Você pode pensar em fazer em outra coluna, mas desde que mantenha essa linha de raciocínio
-# Apague esses comentários feitos com # ao inserir o código no apps script
+/* Pense na seguinte estrutura:
+ Célula A1: cabeçalho [opcional]
+ Célula A2: você cola o endereço do drive que copiou na barra de endereço do navegador
+ Célula A3: você pegará o endereço do ID com a fórmula =EXT.TEXTO(A2;40;50)
+ Célula A4: cabeçalho [opcional]
+ Célula A5:A sua lista
+ Você pode pensar em fazer em outra coluna, mas desde que mantenha essa linha de raciocínio
+ Apague esses comentários feitos com # ao inserir o código no apps script
+ */
