@@ -25,9 +25,10 @@ function enviarPDF() {
   
 }
 
-# Se a sua planilha tiver mais de duas guias, repita esse comando embaixo do original (a fim de ocultar todas as guias que não participarão do PDF): 
-#    planilha.getSheetByName("COLOQUE AQUI O NOME DA GUIA QUE VOCÊ QUER OCULTAR NA HORA DE GERAR O PDF").hideSheet();
+/* Se a sua planilha tiver mais de duas guias, repita esse comando embaixo do original (a fim de ocultar todas as guias que não participarão do PDF): 
+    planilha.getSheetByName("COLOQUE AQUI O NOME DA GUIA QUE VOCÊ QUER OCULTAR NA HORA DE GERAR O PDF").hideSheet();
 
-# O mesmo serve para o final do código: planilha.getSheetByName("COLOQUE AQUI O NOME DA GUIA QUE VOCÊ QUIS OCULTAR NA HORA DE GERAR O PDF").showSheet();
+ O mesmo serve para o final do código: planilha.getSheetByName("COLOQUE AQUI O NOME DA GUIA QUE VOCÊ QUIS OCULTAR NA HORA DE GERAR O PDF").showSheet();
 
-# Apague esses comentários feitos com # na hora de inserir o script no apps script
+ Apague esses comentários feitos com # na hora de inserir o script no apps script
+ */
