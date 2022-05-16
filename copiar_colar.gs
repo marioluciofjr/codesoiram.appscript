@@ -18,5 +18,6 @@ Browser.msgBox("Copiado com Sucesso!")
 
 }
 
-# Você pode determinar o número de linhas a serem copiadas ao usar a fórmula =CONT.VALORES(), por exemplo.
-# Apague esses comentários feitos com # ao inserir o código no apps script
+/* Você pode determinar o número de linhas a serem copiadas ao usar a fórmula =CONT.VALORES(), por exemplo.
+ Apague esses comentários feitos com # ao inserir o código no apps script
+ */
