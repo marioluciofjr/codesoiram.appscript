@@ -7,7 +7,7 @@
  
 */
 function IMC(peso, altura) {
-  var resultado = peso/(altura^2);
+  var resultado = peso/(altura ** 2);
 return resultado
   
 }
