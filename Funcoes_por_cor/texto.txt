@@ -1,1 +1,0 @@
-Funções estatística baseadas na cor de fundo da célula
