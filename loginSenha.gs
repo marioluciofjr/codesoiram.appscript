@@ -3,15 +3,15 @@ var menu = planilha.getSheetByName("Menu");
 
 function senha() {
   var ui = SpreadsheetApp.getUi();
-  var senha_correta = "teste";
+  var senha_correta = "COLOQUE AQUI A SENHA QUE PREFERIR";
 
-  var resposta = ui.prompt("DIGITE A SENHA", ui.ButtonSet.OK);
+  var resposta = ui.prompt("Digite a senha", ui.ButtonSet.OK);
 
   if (resposta.getSelectedButton() == ui.Button.OK) {
     var senha_digitada = resposta.getResponseText();
 
     if (senha_digitada !== senha_correta) {
-      ui.alert('SENHA INCORRETA!');
+      ui.alert("Senha Incorreta!");
       senha();
     }
   } else {
