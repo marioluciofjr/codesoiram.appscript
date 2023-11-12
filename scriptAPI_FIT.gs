@@ -168,7 +168,7 @@ function showSidebar() {
   if (!fitService.hasAccess()) {
     var authorizationUrl = fitService.getAuthorizationUrl();
     var template = HtmlService.createTemplate(
-        '<a href="<?= authorizationUrl ?>" target="_blank">Autorize o script</a>. ' +
+        '<a href="<?= authorizationUrl ?>" target="_blank">Permita que a API do Google Fit funcione nesta planilha ✔️/a>. ' +
         'Feche após finalizar.');
     template.authorizationUrl = authorizationUrl;
     var page = template.evaluate();
