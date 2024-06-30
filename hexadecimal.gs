@@ -14,9 +14,9 @@ function getBackgroundColorsHex() {
   backgrounds.forEach((row, index) => {
     const color = row[0];
     if (color !== "#ffffff" && color !== "#FFFFFF") { // Verifica se a cor não é branco padrão
-      sheet.getRange(index + 1, 2).setValue(color);
+      sheet.getRange(index + 1, 2).setValue(color); // Depois do 1, coloque o número da coluna que vai aparecer o hexadecimal. Exemplo, se for na coluna G, você coloca 7
     } else {
-      sheet.getRange(index + 1, 2).clearContent();
+      sheet.getRange(index + 1, 2).clearContent(); // Depois do 1, coloque o número da coluna que vai aparecer o hexadecimal. Exemplo, se for na coluna G, você coloca 7
     }
   });
 }
