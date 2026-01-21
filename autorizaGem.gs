@@ -14,7 +14,7 @@ function autorizarAcessoGem(e) {
     return;
   }
 
-  const emailUsuario = e.namedValues[NOME_COLUNA_EMAIL] ? e.namedValues[NOME_COLUNA_EMAIL][0] : null;
+  const emailUsuario = e.namedValues[NOME_COLUNA_EMAIL] ? e.namedValues[NOME_COLUNA_EMAIL][0].trim() : null;
 
   if (!emailUsuario) {
     Logger.log('E-mail não encontrado na resposta.');
